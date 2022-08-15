@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+}
+
+.result p {
+  font-size: 20px;
+}
+
+.Calculadora {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: black;
+  border: 1px solid black;
+  padding: 4rem;
+  border-radius: 0.4rem;
+}

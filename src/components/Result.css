@@ -1,0 +1,9 @@
+p {
+  padding: 0;
+  overflow-x: hidden;
+  padding: 1rem;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 3rem;
+  max-width: 12.7rem;
+  color: white;
+}

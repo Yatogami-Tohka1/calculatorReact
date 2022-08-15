@@ -1,0 +1,43 @@
+html {
+  --Operation: #eca47d;
+  --Number: #2a2a2a;
+}
+
+.Button,
+.Operation,
+.Number,
+.Resolve {
+  margin: 0.2px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.Operation {
+  background-color: var(--Operation);
+}
+
+.Operation span {
+  color: white;
+}
+
+.Resolve {
+  border-radius: 10%;
+  background-color: var(--Operation);
+  color: white;
+  width: 120px;
+}
+
+.Button {
+  background-color: var(--Number);
+}
+
+.Number {
+  background-color: var(--Number);
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #bbb;
+}
